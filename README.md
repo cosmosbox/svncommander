@@ -22,8 +22,6 @@ http://svnpath/trunk
 >>> revision = clientSvn.getHeadVersionNum()
 >>> print(revision)
 123
-`
-
-
+```
 
 未经过严谨测试

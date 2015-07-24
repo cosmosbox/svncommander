@@ -34,7 +34,7 @@ def call(cmd):
 	return p.stdout.read()
 
 class SvnCommander:
-	def __init__(self, workPath, svnExePath):
+	def __init__(self, workPath, svnExePath='svn'):
 		self.svnExePath = os.path.realpath(svnExePath)
 		self.workPath = os.path.realpath(workPath)
 
